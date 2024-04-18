@@ -1,0 +1,4 @@
+#CD-HIT
+cd-hit -i marker_nucl.fasta -o marker_nucl.cdhit.fa -c 1.0
+#database construction
+bwa index marker_nucl.cdhit.fa
